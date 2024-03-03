@@ -1,3 +1,7 @@
+//Write and execute a C program to calculate Simple Interest. Given principal (amount), time and interest rate and we have to calculate simple interest based on given rate of given time period. 
+Formula to calculate simple interest: (principal x rate x time)/100 In this program, variable amount is going to be used to store principal amount, rate is going to be used to store interest rate 
+and time is going to be used to store time and si is going to be used to store simple interest.
+
 include <stdio.h>
 include <stdlib.h>
 int main()
