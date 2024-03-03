@@ -1,0 +1,16 @@
+//Write and execute a C program to calculate Gross Salary of an employee. Given Basic Pay,
+HRA and DA. PF is 12% of the Basic Pay
+
+include <stdio.h>
+include <stdlib.h> 
+int main()
+{
+float ba,hra,da,ga,pf; 
+scanf("%f %f",&ba,&hra); 
+da = (10/100)*ba;
+pf = (12/100)*ba;
+ga = (ba+hra+da+pf)); 
+printf("%f",ga);
+}
+
+
