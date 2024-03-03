@@ -1,0 +1,30 @@
+//Develop an algorithm for the following problem statements a. Get the mark in a subject from the student b. If the mark is greater than or equal to 75, print “Distinction” c. 
+If the marks is greater than or equal to 60 and less than 75, then print “First Class” d.
+If the marks is greater than or equal to 50 and less than 60, then print “First Class” e. Otherwise (less than 50), print “FAIL”
+
+include <stdio.h>
+include <stdlib.h>
+int main(){
+float marks; 
+scanf("%f",&marks); 
+if(marks>=75 && marks <=100){
+printf("Distinction");
+}
+else if (marks>=60 && marks<75)
+{
+printf("First Class");
+}
+else if (marks>=50 && marks<60)
+{
+printf("Second Class");
+}
+else if (marks>=0 && marks<50)
+{
+printf("Fail");
+}
+else
+{
+printf("Wrong Input");
+}
+ }
+
